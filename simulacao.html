@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html;">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/estilo.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <!--Script  editor -->
+    <script src="js/tinymce/tinymce.min.js"></script>
+    <script>
+        tinymce.init({ selector:'textarea' });
+    </script>
+    <!--/.script editor fim -->
+
+</head>
+
+<body>
+    <nav class="blue" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Phsim web</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="javaScript:paginar('desenv');">Desenvolvimento</a></li>
+                <li><a href="javaScript:paginar('simulacao');">Simula&ccedil;&atilde;o</a></li>
+                <li><a href="configuracoes.html">Configura&ccedil;&otilde;es</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav" style="left:-250px">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+                <li><a href="simulacao.html">simula&ccedil;&atilde;o</a></li>
+                <li><a href="configuracoes.html">configura&ccedil;oes</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+            <a href="#" class="button-collapse" data-activates="nav-mobile">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+    <!-- menu mobile-->
+    <div class="container" style="margin-bottom: -20px;">
+        <div class="fixed-action-btn horizontal click-to-toggle hide-on-large-only " style="bottom: 45px; right: 24px;">
+            <a class="btn-floating btn-large red">
+                <i class="large mdi-navigation-menu"></i>
+            </a>
+            <ul>
+                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--/.menu mobile fim  -->
+    <!-- inicio page_simulação -->
+    <div id="page_simulacao" class="page">
+        <!-- inicia menu desktop -->
+        <div class="container menu_desktop">
+            <div class="row">
+                <div class="navbar hide-on-med-and-down">
+                    <nav id="menu_desktop">
+                        <div class="nav-wrapper ">
+                            <ul class="left hide-on-med-and-down">
+                                <li><a onclick="loadFileAsText();"><i class="material-icons">add</i></a></li>
+                                <li><a id="lesen" href="#"><i class="material-icons">add</i></a></li>
+                                <li><a class="modal-trigger" href="#modalEditarTabela"><i class="material-icons">stop</i></a></li>
+                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a class="modal-trigger" href="#modal1"><i class="material-icons">input</i></a></li>
+                                <!-- <li><input id="fileToLoad" type="file"></li>-->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- /.menu desktop -->
+        <!--conteudo pagina -->
+        <div class="container">
+            <div class="row">
+                <div id="svg_simulacao" class="svg_simulacao col s12 m12 l8">
+                    <object data="assets/SVG_prot.svg" preserveAspectRatio="xMidYMid meet" type="image/svg+xml">
+                    <img class="responsive-img" src="standAlone.png" alt="PNG image of standAlone.svg" />
+                </object>
+
+                </div>
+                <div id="conteudo-tabela" class="col  s12 m12 l4" style="overflow:auto; padding-top:15px;">
+                    <div class="switch hide-on-large-only" style="margin-bottom: 10px;">
+                        <label>
+                        Hexadecimal
+                        <input type="checkbox">
+                        <span class="lever"></span> Decimal
+                    </label>
+                    </div>
+                    <table id="lista" class=" table_memoria centered striped bordered">
+                        <thead>
+                            <tr>
+                                <th data-field="id">Endere&ccedil;o</th>
+                                <th data-field="vlr_bin">Bin&aacute;rio</th>
+                                <th data-field="vle_h_dec">Hexadecimal</th>
+                                <th data-field="vlr_dec">decimal</th>
+                            </tr>
+                            <tbody>
+                            </tbody>
+                        </thead>
+                    </table>
+                    <p class="text"></p>
+
+
+                    <!--<p style="height:490px;background-color:silver; margin-top: 11px;"> testando 1</p>-->
+                </div>
+            </div>
+            <!--  modal_abrirArquivo inicio -->
+            <div id="modal1" class="modal bottom-sheet" style="z-index: 1003; display: block; opacity: 0; bottom: -100px;">
+                <div id="carrega_dados" class="modal-content">
+                    <h5>Carregar arquivo</h5>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <div class="file-field input-field">
+                                <div class="btn">
+                                    <span>File</span>
+                                    <input id="fileToLoad" type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                </div>
+                                <div>
+                                    <a class="waves-effect waves-light btn-large" onclick="loadFileAsText();">Carregar</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.modal_AbrirArquivo fim -->
+            <!-- modal_editarTabela Inicio -->
+            <div id="modalEditarTabela" class="modal">
+                <div class="modal-content">
+                    <h5>Informar os valores</h5>
+                    <p>
+                        <input name="group1" type="checkbox" id="test08" />
+                        <label for="test08">08</label>
+                        <input name="group1" type="checkbox" id="test07" />
+                        <label for="test07">07</label>
+                        <input name="group1" type="checkbox" id="test06" />
+                        <label for="test06">06</label>
+                        <input name="group1" type="checkbox" id="test05" />
+                        <label for="test05">05</label>
+                        <input name="group1" type="checkbox" id="test04" />
+                        <label for="test04">04</label>
+                        <input name="group1" type="checkbox" id="test03" />
+                        <label for="test03">03</label>
+                        <input name="group1" type="checkbox" id="test02" />
+                        <label for="test02">02</label>
+                        <input name="group1" type="checkbox" id="test01" />
+                        <label for="test01">01</label>
+
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
+            <!-- /.modal_editarTabela fim -->
+
+        </div>
+        <!--/.conteudo pagina fim -->
+    </div>
+    <!-- /.page_simulacao -->
+    <!-- page_desenv inicio-->
+    <div id="page_desenv" class="page">
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s10 m12">
+                        <h5>Desenvolvimento</h5>
+                        <textarea id="codigo"> 
+                  Crie aqui o seu código...
+              </textarea>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.page_desenv -->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/ecmascript" src="js/mapApp.js"></script>
+    <script type="text/ecmascript" src="js/textbox.js"></script>
+    <script type="text/ecmascript" src="js/timer.js"></script>
+    <script type="text/ecmascript" src="js/helper_functions.js"></script>
+
+    </div>
+    <script>
+        $(document).ready(function(){
+          $(".button-collapse").sideNav();
+          $('.modal-trigger').leanModal();  
+          $(".page").hide();
+          $("#page_simulacao").show();        
+    }); 
+    
+    function loadFileAsText()
+{
+	var fileToLoad = document.getElementById("fileToLoad").files[0];
+	var fileReader = new FileReader();
+	fileReader.onload = function(fileLoadedEvent) 
+	{
+		var textFromFileLoaded = fileLoadedEvent.target.result;
+		var texto = textFromFileLoaded;
+		listar(texto);
+	};
+	fileReader.readAsText(fileToLoad, "UTF-8");
+}
+function listar(texto){
+	var quantidade = document.getElementById("lista").rows.length;
+	if (quantidade>1){
+		for(var cont=1;cont<=quantidade;cont++){
+			document.getElementById("lista").deleteRow(cont);
+		}
+	}
+	var itens = texto.split(';');
+	for(var i=1;i<itens.length-1;i++){
+		var valores = itens[i].split(",");
+		document.getElementById("lista").innerHTML +='<tr><td>'+valores[0]+'</td><td>'+valores[1]+'</td><td>'+valores[2]+'</td><td>'+valores[3]+'</td></tr>';
+        $('#modal1').closeModal();
+	}
+}
+    function paginar(pagina){
+        $(".page").hide();
+        $("#page_"+pagina).show();
+    }
+          
+          // $(".button-collapse").sideNav();
+    </script>
+
+</body>
+
+</html>
