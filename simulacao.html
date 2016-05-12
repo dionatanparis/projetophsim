@@ -148,24 +148,30 @@
             <div id="modalEditarTabela" class="modal">
                 <div class="modal-content">
                     <h5>Informar os valores</h5>
+                    <label>Endereco:</label>
+                    <input type="text" id="endereco_edicao" class="" disabled="disabled" name="Endereco" />
                     <p>
                         <input name="group1" type="checkbox" id="test08" />
-                        <label for="test08">08</label>
+                        <label class="labelEdicao" for="test08">08</label>
                         <input name="group1" type="checkbox" id="test07" />
-                        <label for="test07">07</label>
+                        <label class="labelEdicao" for="test07">07</label>
                         <input name="group1" type="checkbox" id="test06" />
-                        <label for="test06">06</label>
+                        <label class="labelEdicao" for="test06">06</label>
                         <input name="group1" type="checkbox" id="test05" />
-                        <label for="test05">05</label>
+                        <label class="labelEdicao" for="test05">05</label>
                         <input name="group1" type="checkbox" id="test04" />
-                        <label for="test04">04</label>
+                        <label class="labelEdicao" for="test04">04</label>
                         <input name="group1" type="checkbox" id="test03" />
-                        <label for="test03">03</label>
+                        <label class="labelEdicao" for="test03">03</label>
                         <input name="group1" type="checkbox" id="test02" />
-                        <label for="test02">02</label>
+                        <label class="labelEdicao" for="test02">02</label>
                         <input name="group1" type="checkbox" id="test01" />
-                        <label for="test01">01</label>
+                        <label class="labelEdicao" for="test01">01</label>
 
+                    </p>
+                    <p>
+                        <input name="group1" type="radio" id="test1" />
+                        <label for="test1">Red</label>
                     </p>
 
                 </div>
@@ -236,13 +242,27 @@ function listar(texto){
 	var itens = texto.split(';');
 	for(var i=1;i<itens.length-1;i++){
 		var valores = itens[i].split(",");
-		document.getElementById("lista").innerHTML +='<tr><td>'+valores[0]+'</td><td>'+valores[1]+'</td><td>'+valores[2]+'</td><td>'+valores[3]+'</td></tr>';
+		document.getElementById("lista").innerHTML +=''+
+        '<a href="javaScript:editar();">'+
+        '<tr onclick="editarTabela('+valores[0]+');">'+
+        '    <td>'+valores[0]+'</td>'+
+        '    <td>'+valores[1]+'</td>'+
+        '    <td>'+valores[2]+'</td>'+
+        '    <td>'+valores[3]+'</td>'+          
+        '</tr>'+
+        '</a>';
         $('#modal1').closeModal();
 	}
 }
+    
     function paginar(pagina){
         $(".page").hide();
         $("#page_"+pagina).show();
+    }
+    
+    function editarTabela(endereco){
+        $("#modalEditarTabela").openModal();
+        $("#endereco_edicao").val(endereco);
     }
           
           // $(".button-collapse").sideNav();

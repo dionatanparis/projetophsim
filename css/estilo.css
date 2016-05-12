@@ -66,3 +66,46 @@ margin-top:25px !important;
     font-size: 1em;
 }
 
+/* inicio css modal edição*/
+.modal-content #endereco_edicao {
+    width: 20px !important;
+    height: 1rem;
+    padding: 0px;
+}
+
+.modal-content h5{
+    font-size: 20px;
+}
+
+#modalEditarTabela [type=checkbox]:not(:checked)+label:before {
+	border-radius:100%;
+	border:2px solid #5a5a5a
+}
+
+#modalEditarTabela [type=checkbox]:not(:checked)+label::after{ 
+border-radius: 50%;
+border: 2px solid #5a5a5a;
+z-index: -1;
+-webkit-transform: scale(0);
+transform: scale(0);
+}
+
+#modalEditarTabela [type=checkbox]:checked+label::before {
+border-radius: 50%;
+border: 2px solid #26a69a;
+background-color: #26a69a;
+z-index: 0;
+-webkit-transform: scale(1.02);
+transform: scale(1.02);
+top: 0px;
+left: 0px;
+width: 19px;
+height: 19px;
+transform-origin: 0% 11%;
+}
+
+
+
+/* fim css modal edição*/
+
+
