@@ -1,3 +1,11 @@
+/* Helpers inicio*/
+.margin_0{
+    margin: 0px !important;
+}
+
+
+/*Helpers fim*/
+
 .table_memoria{
 padding-top:10px !important;
 margin-top:15px !important;
@@ -68,7 +76,13 @@ margin-top:25px !important;
 
 /* inicio css modal edição*/
 .modal-content #endereco_edicao {
-    width: 20px !important;
+    width: 30px !important;
+    height: 1rem;
+    padding: 0px;
+}
+
+.modal-content #valor_edicao {
+    width: 70px !important;
     height: 1rem;
     padding: 0px;
 }
@@ -92,8 +106,8 @@ transform: scale(0);
 
 #modalEditarTabela [type=checkbox]:checked+label::before {
 border-radius: 50%;
-border: 2px solid #26a69a;
-background-color: #26a69a;
+border: 2px solid #2196f3;
+background-color: #2196f3;
 z-index: 0;
 -webkit-transform: scale(1.02);
 transform: scale(1.02);
@@ -104,7 +118,11 @@ height: 19px;
 transform-origin: 0% 11%;
 }
 
-
+#modalEditarTabela .labelEdicao{
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-right: 5px;
+}
 
 /* fim css modal edição*/
 
