@@ -86,6 +86,12 @@ margin-top:25px !important;
     height: 1rem;
     padding: 0px;
 }
+.modal-content #binario_edicao{ 
+width: 70px !important;
+height: 1rem;  
+direction: rtl;
+}
+
 
 .modal-content h5{
     font-size: 20px;

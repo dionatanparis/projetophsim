@@ -35,7 +35,7 @@
             <ul id="nav-mobile" class="side-nav" style="left:-250px">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="javaScript:paginar('desenv');">Desenvolvimento</a></li>
-                <li><a href="javaScript:paginar('simulacao');">simula&ccedil;&atilde;o</a></li>
+                <li><a href="simulacao.html">simula&ccedil;&atilde;o</a></li>
                 <li><a href="configuracoes.html">configura&ccedil;oes</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
@@ -153,10 +153,18 @@
                         <input type="text" id="endereco_edicao" class="" maxlength="3" disabled="disabled" name="Endereco" />
                     </p>
                     <p class="margin_0">
-                        <label>Valor:</label>
-                        <input type="text" id="valor_edicao" class=""  maxlength="8"  name="Valor" />
+                        <label>Decimal:</label>
+                        <input type="text" id="valor_edicao" class=""  maxlength="3"  name="Valor" />
+                        <label>Hexadecimal:</label>
+                        <input type="text" id="valor_edicao" class=""  maxlength="2"  name="Valor" />
                     </p>
                     <p>
+                        <label>Binario:</label>
+                        <input type="text" id="binario_edicao"  class=""  maxlength="8"  name="Valor" />
+                    </p>
+                    
+                    <p>
+                        
                         <input name="group1" type="checkbox" id="test08" />
                         <label class="labelEdicao" for="test08">128</label>
                         <input name="group1" type="checkbox" id="test07" />
@@ -211,6 +219,7 @@
     <script type="text/ecmascript" src="js/textbox.js"></script>
     <script type="text/ecmascript" src="js/timer.js"></script>
     <script type="text/ecmascript" src="js/helper_functions.js"></script>
+    <script type="text/javascript" src="js/baseConverter.js"></script>
 
     </div>
     <script>
@@ -245,7 +254,7 @@ function listar(texto){
 		var valores = itens[i].split(",");
 		document.getElementById("lista").innerHTML +=''+
         '<a href="javaScript:editar();">'+
-        '<tr onclick="editarTabela('+valores[0]+','+valores[3]+');">'+
+        '<tr id="'+'editando_'+valores[0]+'" onclick="editarTabela('+valores[0]+','+valores[3]+');">'+
         '    <td>'+valores[0]+'</td>'+
         '    <td>'+valores[1]+'</td>'+
         '    <td>'+valores[2]+'</td>'+
@@ -253,6 +262,14 @@ function listar(texto){
         '</tr>'+
         '</a>';
         $('#modal1').closeModal();
+        
+        /* utilização base converter /*
+        * Usage example:
+        * ConvertBase.bin2dec('111'); // '7'
+        * ConvertBase.dec2hex('42'); // '2a'
+        * ConvertBase.hex2bin('f8'); // '11111000'
+        * ConvertBase.dec2bin('22'); // '10110'
+        */  
 	}
 }
     
