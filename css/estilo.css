@@ -86,7 +86,17 @@ margin-top:25px !important;
     height: 1rem;
     padding: 0px;
 }
-.modal-content #binario_edicao{ 
+.modal-content #valor_hexa {
+    width: 70px !important;
+    height: 1rem;
+    padding: 0px;
+}
+.modal-content #valor_dec {
+    width: 70px !important;
+    height: 1rem;
+    padding: 0px;
+}
+.modal-content #valor_bin{ 
 width: 70px !important;
 height: 1rem;  
 direction: rtl;
