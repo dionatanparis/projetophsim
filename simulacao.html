@@ -118,7 +118,7 @@
                                 <td>0</td>
                                 <td>00000000</td>
                                 <td>00</td>
-                                <td>0</td>
+                                <td>000</td>
                             </tr>
                         </tbody>
                     </table>
@@ -173,14 +173,10 @@
             <!-- modal_editarTabela Inicio -->
             <div id="modalEditarTabela" class="modal">
                 <div class="modal-content">
-                    <h5>Informar os valores</h5>
+                    <h5>Editar Endere&ccedil;o:</h5>
                     <p class="margin_0">
                         <label>Endereco:</label>
                         <input type="text" id="endereco_edicao" class="" maxlength="3" disabled="disabled" name="Endereco" />
-
-                        <a onclick="endereco_prev();" class="waves-effect waves-teal btn-flat">prev</a>
-
-                        <a onclick="endereco_next();" class="waves-effect waves-teal btn-flat">next</a>
 
                     </p>
                     <p class="margin_0">
@@ -216,9 +212,14 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    
-                    <a  href="#" onclick="confirma_edicao();"  class=" modal-action  waves-effect waves-green btn-flat">Confirmar</a>
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+                   <div class="left">  
+                        <a onclick="endereco_next();" class="waves-effect waves-teal btn-flat">next</a>
+                        <a onclick="endereco_prev();" class="waves-effect waves-teal btn-flat">prev</a>
+                    </div>
+                    <div class="rigth">
+                        <a  href="#" onclick="confirma_edicao();"  class=" modal-action  waves-effect waves-green btn-flat">Confirmar</a>
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+                    </div>
                 </div>
             </div>
             <!-- /.modal_editarTabela fim -->
