@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 400" style="enable-background:new 0 0 600 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#438DCC;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:12px;}
+	.st3{fill:#5493CF;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#F9F19A;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="REM">
+	<rect x="318.7" y="109.3" class="st0" width="76" height="32"/>
+	<rect x="318.7" y="109.3" class="st0" width="38" height="16"/>
+	<rect x="356.7" y="109.3" class="st0" width="38" height="16"/>
+	<text transform="matrix(1 0 0 1 323.4287 121.2858)" class="st1 st2">REM</text>
+	<text transform="matrix(1 0 0 1 367.7144 121.286)" class="st1 st2">000</text>
+	<text transform="matrix(1 0 0 1 331.8571 138.4288)" class="st1 st2">00000000</text>
+</g>
+<g id="RDM">
+	<rect x="318.7" y="31.9" class="st0" width="76" height="32"/>
+	<rect x="318.7" y="31.9" class="st0" width="38" height="16"/>
+	<rect x="356.7" y="31.9" class="st0" width="38" height="16"/>
+	<text transform="matrix(1 0 0 1 323.4287 43.8573)" class="st1 st2">RDM</text>
+	<text transform="matrix(1 0 0 1 367.7144 43.8574)" class="st1 st2">000</text>
+	<text transform="matrix(1 0 0 1 331.8571 61.0003)" class="st1 st2">00000000</text>
+</g>
+<g id="RI">
+	<rect x="208.9" y="31.9" class="st0" width="76" height="32"/>
+	<rect x="208.9" y="31.9" class="st0" width="38" height="16"/>
+	<rect x="246.9" y="31.9" class="st0" width="38" height="16"/>
+	<text transform="matrix(1 0 0 1 213.5716 43.8573)" class="st1 st2">    RI</text>
+	<text transform="matrix(1 0 0 1 257.8572 43.8574)" class="st1 st2">000</text>
+	<text transform="matrix(1 0 0 1 221.9999 61.0003)" class="st1 st2">00000000</text>
+</g>
+<g id="PC">
+	<rect x="208.9" y="109.3" class="st3" width="76" height="32"/>
+	<rect x="208.9" y="109.3" class="st0" width="38" height="16"/>
+	<rect x="246.9" y="109.3" class="st3" width="38" height="16"/>
+	<text transform="matrix(1 0 0 1 213.5716 121.2858)" class="st1 st2">    PC</text>
+	<text transform="matrix(1 0 0 1 257.8572 121.286)" class="st1 st2">000</text>
+	<text transform="matrix(1 0 0 1 221.9999 138.4288)" class="st1 st2">00000000</text>
+</g>
+<g id="AC">
+	<rect x="208.9" y="205.6" class="st0" width="76" height="32"/>
+	<rect x="208.9" y="205.6" class="st0" width="38" height="16"/>
+	<rect x="246.9" y="205.6" class="st0" width="38" height="16"/>
+	<text transform="matrix(1 0 0 1 213.5716 217.5715)" class="st1 st2">    AC</text>
+	<text transform="matrix(1 0 0 1 257.8572 217.5716)" class="st1 st2">000</text>
+	<text transform="matrix(1 0 0 1 221.9999 234.7145)" class="st1 st2">00000000</text>
+</g>
+<g id="DECODIFICADOR">
+	<rect x="36.6" y="26.1" class="st4" width="120" height="52"/>
+	<text transform="matrix(1 0 0 1 53.1431 54.1433)" class="st1 st2">DECODIFICADOR</text>
+</g>
+<g id="UC">
+	<rect x="36.6" y="148" class="st4" width="120" height="52"/>
+	<text transform="matrix(1 0 0 1 53.1431 176.0004)" class="st1 st2">DECODIFICADOR</text>
+</g>
+<g id="ULA">
+	<polygon class="st5" points="403.8,344.6 332.9,345.7 296.8,285.1 345.3,284.1 367.7,303.3 388.8,283.9 438.6,282.9 	"/>
+	<text transform="matrix(1 0 0 1 359.6544 323.8691)" class="st1 st2">ULA</text>
+</g>
+</svg>

@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <!--Script  editor -->
     <script src="js/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
     <script>
         tinymce.init({ selector:'textarea' });
     </script>
@@ -51,7 +52,7 @@
                 <i class="large mdi-navigation-menu"></i>
             </a>
             <ul>
-                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                <li><a class="btn-floating modal-trigger red" href="#modalEditarTabela"><i class="material-icons">stop</i></a></li>
                 <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
                 <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
                 <li><a href="#modal1" class="btn-floating modal-trigger blue"><i class="material-icons">attach_file</i></a></li>
@@ -76,7 +77,7 @@
                                 <li><a href="#"><i class="material-icons">add</i></a></li>
                                 <li><a href="#"><i class="material-icons">add</i></a></li>
                                 <li><a href="#"><i class="material-icons">add</i></a></li>
-                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a class="modal-trigger"  href="#modalSalvarArquivo"><i class="material-icons">save</i></a></li>
                                 <li><a class="modal-trigger" href="#modal1"><i class="material-icons">input</i></a></li>
                                 <!-- <li><input id="fileToLoad" type="file"></li>-->
                             </ul>
@@ -103,7 +104,7 @@
                         <span class="lever"></span> Decimal
                     </label>
                     </div>
-                    <table id="lista" class=" table_memoria centered striped bordered">
+                    <table  class=" table_memoria centered striped bordered">
                         <thead>
                             <tr>
                                 <th data-field="id">Endere&ccedil;o</th>
@@ -111,9 +112,15 @@
                                 <th data-field="vle_h_dec">Hexadecimal</th>
                                 <th data-field="vlr_dec">decimal</th>
                             </tr>
-                            <tbody>
-                            </tbody>
                         </thead>
+                        <tbody id="lista">
+                            <tr id="editando_0" onclick="editarTabela('0');">
+                                <td>0</td>
+                                <td>00000000</td>
+                                <td>00</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <p class="text"></p>
 
@@ -144,6 +151,25 @@
                 </div>
             </div>
             <!-- /.modal_AbrirArquivo fim -->
+            <!--  modal_salvarArquivo inicio -->
+            <div id="modalSalvarArquivo" class="modal bottom-sheet" style="z-index: 1003; display: block; opacity: 0; bottom: -100px;">
+                <div id="salvar_dados" class="modal-content">
+                    <h5>Salvar arquivo</h5>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <div class="input-field">
+                                    <span>Nome:</span>
+                                    <input id="fileToSave" type="text">
+                                <div>
+                                    <a class="waves-effect waves-light btn-large" onclick="salvar_Arquivo();">Salvar</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.modal_salvarArquivo fim -->
+            
             <!-- modal_editarTabela Inicio -->
             <div id="modalEditarTabela" class="modal">
                 <div class="modal-content">
@@ -151,6 +177,11 @@
                     <p class="margin_0">
                         <label>Endereco:</label>
                         <input type="text" id="endereco_edicao" class="" maxlength="3" disabled="disabled" name="Endereco" />
+
+                        <a onclick="endereco_prev();" class="waves-effect waves-teal btn-flat">prev</a>
+
+                        <a onclick="endereco_next();" class="waves-effect waves-teal btn-flat">next</a>
+
                     </p>
                     <p class="margin_0">
                         <label>Decimal:</label>
@@ -163,7 +194,7 @@
                         <input type="text" id="valor_bin" class="" maxlength="8" name="Valor" />
                     </p>
 
-                    <p>
+                    <p id="select_binario">
 
                         <input onclick="binario();" name="group1" type="checkbox" id="test08" />
                         <label class="labelEdicao" for="test08">128</label>
@@ -185,7 +216,9 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#!" onclick="confirma_edicao();" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                    
+                    <a  href="#" onclick="confirma_edicao();"  class=" modal-action  waves-effect waves-green btn-flat">Confirmar</a>
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
                 </div>
             </div>
             <!-- /.modal_editarTabela fim -->
@@ -220,7 +253,7 @@
     <script type="text/ecmascript" src="js/timer.js"></script>
     <script type="text/ecmascript" src="js/helper_functions.js"></script>
     <script type="text/javascript" src="js/baseConverter.js"></script>
-
+    <script type="text/javascript" src="js/FileSaver.min.js"></script>
     </div>
     <script>
         $(document).ready(function(){
@@ -232,6 +265,8 @@
     
     function loadFileAsText()
 {
+    var lista = $("#lista tr");
+    lista.remove();
 	var fileToLoad = document.getElementById("fileToLoad").files[0];
 	var fileReader = new FileReader();
 	fileReader.onload = function(fileLoadedEvent) 
@@ -244,25 +279,25 @@
 }
 function listar(texto){
 	var quantidade = document.getElementById("lista").rows.length;
+    $("#editando_0").remove();
 	if (quantidade>1){
 		for(var cont=1;cont<=quantidade;cont++){
 			document.getElementById("lista").deleteRow(cont);
 		}
 	}
-	var itens = texto.split(';');
-	for(var i=1;i<itens.length-1;i++){
+	var itens = texto.split('\n');    
+	for(var i=1;i<itens.length;i++){
 		var valores = itens[i].split(",");
 		document.getElementById("lista").innerHTML +=''+
-        '<a href="javaScript:editar();">'+
-        '<tr id="'+'editando_'+valores[0]+'" onclick="editarTabela('+valores[0]+','+valores[3]+');">'+
-        '    <td class="end">'+valores[0]+'</td>'+
-        '    <td class="bin">'+valores[1]+'</td>'+
-        '    <td class="hex" >'+valores[2]+'</td>'+
-        '    <td class="dec">'+valores[3]+'</td>'+          
-        '</tr>'+
-        '</a>';
-        $('#modal1').closeModal();
+        '<tr id="'+'editando_'+i+'" onclick="editarTabela('+i+');">'+
+        '    <td class="end">'+i+'</td>'+
+        '    <td class="bin">'+ConvertBase.hex2bin(valores)+'</td>'+
+        '    <td class="hex" >'+valores.toString().toUpperCase()+'</td>'+
+        '    <td class="dec">'+ConvertBase.hex2dec(valores)+'</td>'+          
+        '</tr>';
         
+        $('#modal1').closeModal();
+         
         /* utilização base converter /*
         * Usage example:
         * ConvertBase.bin2dec('111'); // '7'
@@ -273,64 +308,73 @@ function listar(texto){
 	}
 }
     
+    function salvar_Arquivo(){
+        console.log("entrou salvar");
+        var lista = $("#lista tr");
+        var arq = $("#fileToSave").val(); 
+        var tam = lista.length;
+        var conteudo ="v2.0 raw";
+        for(var i =0;i<tam;i++){
+          conteudo =conteudo + lista[i].cells[2].innerText;
+          conteudo =conteudo +"\r\n";  
+        };
+        lista[0].cells[2].innerText;
+        var blob = new Blob([conteudo], {type: "text/plain;charset=utf-8"});
+        saveAs(blob, arq+".txt");
+        $('#modalSalvarArquivo').closeModal();
+    }
+    
     function paginar(pagina){
         $(".page").hide();
         $("#page_"+pagina).show();
     }
     
     
-    function editarTabela(endereco,valor){
-        console.log("entrou funcao editar");
-        limparValores();
+    function editarTabela(endereco){
         $("#modalEditarTabela").openModal();
+        
+        cel = $("#editando_"+endereco+" td")[3];
+        var valor = cel.innerText;
+        cel = $("#editando_"+endereco+" td")[1];
+        var bin = cel.innerText; 
+        console.log('bin = ' +bin);
         $("#endereco_edicao").val(endereco);
         $("#valor_dec").val(valor);
-        $("#valor_bin").val(ConvertBase.dec2bin(valor));
+        $("#valor_bin").val(bin);
         $("#valor_hexa").val(ConvertBase.dec2hex(valor));
-        setaBin(ConvertBase.dec2bin(valor));
+        setaBin(bin);
         console.log('abriu modal');     
     }
     
-    function setaBin(valor){
-        
-       console.log('entrou fn setaBin');
-       var bin =  $("#valor_bin").val();
-       console.log('valor bin'+bin+' tamanho = '+bin.length); 
-       for(i=bin.length;i>=0;i--){
-           console.log("entrou form valor charAt:"+bin.charAt(i));
-           if(bin.charAt(i)=='1'){
-               var st = parseInt(i)+1;
-               console.log('setou valor para test0'+st);
-               $("#test0"+st).attr("checked", true);
-               console.log('atribuiu valor');
-           }
+    function setaBin(valor){   
+         $("#select_binario input").prop("checked", false); 
+       for( var i=1; i<=8;i++){
+          
+           if(valor.charAt(8-i)=='1'){
+               console.log('setou valor para test0'+i);
+               $("#test0"+i).prop("checked", true);
+               console.log('atribuiu valor');         
+            }    
        }
-       console.log('fim form');
-    }
-    
-    function limparValores(){
-        console.log('limpou valores');
-        for(i=1;i<=8;i++){
-             $("#test0"+i).attr("checked", false);
-        }
-        
     }
     
     function confirma_edicao(){
-         
         var valor = binario();
-        var endereco = 0;
-        var end_insert =0; 
         var bin = ConvertBase.dec2bin(valor);
         var hexa = ConvertBase.dec2hex(valor);
-        var vlr = '#editando_'+endereco;
-        console.log("vlr:"+vlr);
+     //   var vlr = '#editando_'+endereco;    
         endereco = $("#endereco_edicao").val();
         end_insert = parseInt(endereco)+1;
-        console.log(endereco+" insert = "+end_insert);
-        $("#editando_"+endereco+"").remove();
-        var html ='<tr onclick="editarTabela('+endereco+','+valor+')"  id="editando_'+endereco+'"> <td>'+endereco+'</td><td>'+bin+'</td><td>'+hexa+'</td><td>'+valor+'</td></tr>';
-        $(html).insertBefore("#editando_"+end_insert.toString());
+        var  tlinha = $("#editando_"+endereco+" td");
+        col = tlinha[1];    
+        col.innerHTML = bin;
+        col = tlinha[2];
+        col.innerHTML = hexa;
+        col = tlinha[3];
+        col.innerHTML = valor;   
+        //$("#"+endereco+"").remove();
+        //var html ='<tr onclick="editarTabela('+endereco+','+valor+')"  id="editando_'+endereco+'"> <td>'+endereco+'</td><td>'+bin+'</td><td>'+hexa+'</td><td>'+valor+'</td></tr>';
+        //$(html).insertBefore("#editando_"+end_insert.toString());
     } 
         
     function binario(){
@@ -364,7 +408,6 @@ function listar(texto){
            } 
            
        }
-       console.log('saiu fn valor '+valor);
        $("#valor_dec").val(valor);
        $("#valor_hexa").val(ConvertBase.dec2hex(valor));
        $("#valor_bin").val(ConvertBase.dec2bin(valor));

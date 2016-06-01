@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    </head>
+
+    <body>
+       <nav class="blue" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Phsim web</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+                <li><a href="simulacao.html">Simula&ccedil;&atilde;o</a></li>
+                <li><a href="configuracoes.html">Configura&ccedil;&otilde;es</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav" style="left:-250px">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+                <li><a href="simulacao.html">Simula&ccedil;&atilde;o</a></li>
+                <li><a href="configuracoes.html">Configura&ccedil;&otilde;es</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+            <a href="#" class="button-collapse" data-activates="nav-mobile">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s10 m5">
+              <p> testando 1</p>
+            </div>
+            <div class="col s10 m5">
+             <p> testando 2</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>  
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <div style="" class="drag-target"></div>
+        <script> 
+          $(document).ready(function(){
+             $(".button-collapse").sideNav();
+          }) 
+           $(".button-collapse").sideNav();
+      </script>
+         
+    </body>
+  </html>
