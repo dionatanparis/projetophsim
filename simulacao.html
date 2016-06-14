@@ -176,7 +176,7 @@
                     <h5>Editar Endere&ccedil;o:</h5>
                     <p class="margin_0">
                         <label>Endereco:</label>
-                        <input type="text" id="endereco_edicao" class="" maxlength="3" disabled="disabled" name="Endereco" />
+                        <input type="text" id="endereco_edicao" class="" maxlength="3"  name="Endereco" />
 
                     </p>
                     <p class="margin_0">
@@ -218,7 +218,7 @@
                     </div>
                     <div class="rigth">
                         <a  href="#" onclick="confirma_edicao();"  class=" modal-action  waves-effect waves-green btn-flat">Confirmar</a>
-                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
                     </div>
                 </div>
             </div>
@@ -257,11 +257,46 @@
     <script type="text/javascript" src="js/FileSaver.min.js"></script>
     </div>
     <script>
+        
+        var mem_ram = new Array({end:"",val:"",str:""});
         $(document).ready(function(){
+          
           $(".button-collapse").sideNav();
           $('.modal-trigger').leanModal();  
           $(".page").hide();
-          $("#page_simulacao").show();        
+          $("#page_simulacao").show();
+          
+           $("#endereco_edicao").focusout(function(){
+               console.log("chama fn valor: " +$("#endereco_edicao").val());
+                
+                carregar_valores_modal($("#endereco_edicao").val());
+               // var val = $("#valor_dec").val(); 
+                //$("#valor_bin").val(ConvertBase.dec2bin(val));
+                //$("#valor_hexa").val(ConvertBase.dec2hex(val));
+               // setaBin(ConvertBase.dec2bin(val));
+            });        
+          
+           $("#valor_dec").focusout(function(){
+                var val = $("#valor_dec").val(); 
+                $("#valor_bin").val(ConvertBase.dec2bin(val));
+                $("#valor_hexa").val(ConvertBase.dec2hex(val));
+                setaBin(ConvertBase.dec2bin(val));
+            });
+            
+            $("#valor_hexa").focusout(function(){
+                var val = $("#valor_hexa").val(); 
+                $("#valor_bin").val(ConvertBase.hex2bin(val));
+                $("#valor_dec").val(ConvertBase.hex2dec(val));
+                setaBin(ConvertBase.hex2bin(val)); 
+            });
+            
+            $("#valor_bin").focusout(function(){
+                var val = $("#valor_bin").val(); 
+                $("#valor_dec").val(ConvertBase.bin2dec(val));
+                $("#valor_hexa").val(ConvertBase.bin2hex(val));
+                setaBin(val);
+            });
+          
     }); 
     
     function loadFileAsText()
@@ -276,37 +311,33 @@
 		var texto = textFromFileLoaded;
 		listar(texto);
 	};
+    console.log('tempo'+ new Date());
 	fileReader.readAsText(fileToLoad, "UTF-8");
 }
 function listar(texto){
+    console.log('tempo2'+ new Date());
 	var quantidade = document.getElementById("lista").rows.length;
-    $("#editando_0").remove();
-	if (quantidade>1){
-		for(var cont=1;cont<=quantidade;cont++){
-			document.getElementById("lista").deleteRow(cont);
-		}
-	}
-	var itens = texto.split('\n');    
-	for(var i=1;i<itens.length;i++){
+    $("#editando_0").remove();	
+	var itens = texto.split('\n');   
+        cc = 1;
+    for(var i=1;i<itens.length;i++){
 		var valores = itens[i].split(",");
+       
+        mem_ram[cc].end = valores[0];
+        mem_ram[cc].val = valores[1];
+        mem_ram[cc].str = 0;
 		document.getElementById("lista").innerHTML +=''+
-        '<tr id="'+'editando_'+i+'" onclick="editarTabela('+i+');">'+
-        '    <td class="end">'+i+'</td>'+
-        '    <td class="bin">'+ConvertBase.hex2bin(valores)+'</td>'+
-        '    <td class="hex" >'+valores.toString().toUpperCase()+'</td>'+
-        '    <td class="dec">'+ConvertBase.hex2dec(valores)+'</td>'+          
+        '<tr id="'+'editando_'+valores[0]+'" onclick="editarTabela('+valores[0]+');">'+
+        '    <td class="end">'+valores[0]+'</td>'+
+        '    <td class="bin">'+ConvertBase.hex2bin(valores[1])+'</td>'+
+        '    <td class="hex" >'+valores[1].toString().toUpperCase()+'</td>'+
+        '    <td class="dec">'+ConvertBase.hex2dec(valores[1])+'</td>'+          
         '</tr>';
-        
-        $('#modal1').closeModal();
-         
-        /* utilização base converter /*
-        * Usage example:
-        * ConvertBase.bin2dec('111'); // '7'
-        * ConvertBase.dec2hex('42'); // '2a'
-        * ConvertBase.hex2bin('f8'); // '11111000'
-        * ConvertBase.dec2bin('22'); // '10110'
-        */  
+        cc+=1;
 	}
+      
+     console.log('tempo3'+ new Date());
+     $('#modal1').closeModal();
 }
     
     function salvar_Arquivo(){
@@ -314,9 +345,11 @@ function listar(texto){
         var lista = $("#lista tr");
         var arq = $("#fileToSave").val(); 
         var tam = lista.length;
-        var conteudo ="v2.0 raw";
+        var conteudo ="v2.0 raw \r\n";
         for(var i =0;i<tam;i++){
-          conteudo =conteudo + lista[i].cells[2].innerText;
+          end = ConvertBase.dec2hex(lista[i].cells[0].innerText);
+          val = lista[i].cells[2].innerText;
+          conteudo =conteudo + end +","+ val;
           conteudo =conteudo +"\r\n";  
         };
         lista[0].cells[2].innerText;
@@ -349,7 +382,7 @@ function listar(texto){
     
     function setaBin(valor){   
          $("#select_binario input").prop("checked", false); 
-       for( var i=1; i<=8;i++){
+       for( var i=1; i<=8;i++){ 
           
            if(valor.charAt(8-i)=='1'){
                console.log('setou valor para test0'+i);
@@ -363,7 +396,7 @@ function listar(texto){
         var valor = binario();
         var bin = ConvertBase.dec2bin(valor);
         var hexa = ConvertBase.dec2hex(valor);
-     //   var vlr = '#editando_'+endereco;    
+        // var vlr = '#editando_'+endereco;    
         endereco = $("#endereco_edicao").val();
         end_insert = parseInt(endereco)+1;
         var  tlinha = $("#editando_"+endereco+" td");
@@ -372,7 +405,8 @@ function listar(texto){
         col = tlinha[2];
         col.innerHTML = hexa;
         col = tlinha[3];
-        col.innerHTML = valor;   
+        col.innerHTML = valor;
+        $("#modalEditarTabela").closeModal();   
         //$("#"+endereco+"").remove();
         //var html ='<tr onclick="editarTabela('+endereco+','+valor+')"  id="editando_'+endereco+'"> <td>'+endereco+'</td><td>'+bin+'</td><td>'+hexa+'</td><td>'+valor+'</td></tr>';
         //$(html).insertBefore("#editando_"+end_insert.toString());
