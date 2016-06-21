@@ -62,3 +62,64 @@ function Salvar_valores() {
     col.innerHTML = valor;
 
 }
+
+function simulacao() {
+    // LCA linhas de controle ativas.
+
+    var LCA = new Array();
+    var operacao = new Array();
+    
+    var simulacao = [{ "rtl": "REM <- PC", "lca": ["REMw", "PCr"], "op": atualiza_rem },
+        { "rtl": "RDM <- MEM[REM]", "lca": ["MEMr"], "op": atualiza_rdm },
+        { "rtl": "PC <- PC + 1", "lca": ["PC+"], "op": incrementa_pc },
+        { "rtl": "PC <- PC + 1", "lca": ["PC+"], "op": busca_instrucao }
+    ]
+
+    for(var i in simulacao){
+        simulacao[i].op();
+    }
+
+}
+
+function ler_mem() {
+    return "end mem";
+}
+function lixo() { alert('3') }
+
+function atualiza_rem(){
+    console.log("atualiza rem valor:" +pc);
+    $("#rem_dec").textContent = pc;
+    rem = pc;
+    console.log("rem - "+pc);
+}
+
+function atualiza_rdm(){
+    console.log("atualiza rdm deve ser zero rdm =" +rdm );
+
+    rdm = mem_ram[rem].val;
+   $("#rdm_dec tspan").textContent = ConvertBase.hex2dec(rdm);
+    console.log("rdm - "+rdm);
+}
+
+function incrementa_pc(){
+    console.log("incrementa pc");
+    pc = pc + 1;
+    $("#pc_dec").textContent= pc.toString();
+}
+
+function busca_instrucao(){
+    console.log("busca_instrucao");
+}
+
+
+
+/* exemplo função 
+var simulacao=[{"rtl": "REM <- PC", "lca": ["REMw", "PCr"], "op" : function() { alert('0') }},
+{"rtl": "RDM <- MEM[REM]", "lca": ["MEMr"], "op" : function() { alert('1') }},
+{"rtl": "PC <- PC + 1", "lca": ["PC+"], "op" : lixo }
+]
+
+function lixo(){alert('3')}
+*/
+
+//$("#pc_end").textContent = "023";

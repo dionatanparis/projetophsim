@@ -156,40 +156,40 @@
     <rect x="423.98" y="174.45" width="45" height="19.38" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="468.98" y="174.45" width="45" height="19.38" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <text transform="translate(429.58 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">REM</text>
-    <text transform="translate(482.02 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">000</text>
-    <text transform="translate(439.56 209.73) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">00000000</text>
+    <text id="rem_dec" transform="translate(482.02 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">000</text>
+    <text id="rem_bin" transform="translate(439.56 209.73) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial"><tspan>00000000</tspan></text>
   </g>
   <g id="RDM">
     <rect x="418" y="38.53" width="90" height="38.79" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="418" y="38.53" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="463" y="38.53" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <text transform="translate(423.6 53.03) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial">RDM</text>
-    <text transform="translate(476.04 53.03) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial">000</text>
-    <text transform="translate(433.58 73.81) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial">00000000</text>
+    <text id="rdm_dec" transform="translate(476.04 53.03) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial"><tspan>000</tspan></text>
+    <text id="rdm_bin" transform="translate(433.58 73.81) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial"><tspan>00000000</tspan></text>
   </g>
   <g id="RI">
     <rect x="214.98" y="37.41" width="90" height="38.79" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="214.98" y="37.41" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="259.98" y="37.41" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <text transform="translate(220.52 51.9) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial;white-space: pre">    RI</text>
-    <text transform="translate(272.96 51.9) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial">000</text>
-    <text transform="translate(230.5 72.68) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial">00000000</text>
+    <text id="ri_dec" transform="translate(272.96 51.9) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial"><tspan>000</tspan></text>
+    <text id="ri_bin" transform="translate(230.5 72.68) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial"><tspan>00000000</tspan></text>
   </g>
   <g id="PC">
     <rect x="218.96" y="174.45" width="90" height="38.76" style="fill: #5493cf;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="218.96" y="174.45" width="45" height="19.38" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="263.96" y="174.45" width="45" height="19.38" style="fill: #5493cf;stroke: #000;stroke-miterlimit: 10"/>
     <text transform="translate(224.49 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial;white-space: pre">    PC</text>
-    <text transform="translate(276.93 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">000</text>
-    <text transform="translate(234.47 209.73) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">00000000</text>
+    <text id="pc_dec"  transform="translate(276.93 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial"><tspan>000</tspan></text>
+    <text id="pc_bin"  transform="translate(234.47 209.73) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial"><tspan>00000000</tspan></text>
   </g>
   <g id="AC">
     <rect x="251.45" y="258.71" width="90" height="38.77" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="251.45" y="258.71" width="45" height="19.39" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <rect x="296.45" y="258.71" width="45" height="19.39" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
     <text transform="translate(256.98 273.22) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial"><tspan style="white-space: pre">   </tspan><tspan x="12.12" y="0"> </tspan><tspan x="15.36" y="0">AC</tspan></text>
-    <text transform="translate(309.43 273.22) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial">000</text>
-    <text transform="translate(266.97 293.99) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial">00000000</text>
+    <text id="ac_dec" transform="translate(309.43 273.22) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial"><tspan>001</tspan></text>
+    <text id="ac_bin" transform="translate(266.97 293.99) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial"><tspan>00000000</tspan></text>
   </g>
   <g id="DECODIFICADOR">
     <rect x="41.19" y="18.45" width="120.72" height="54.89" style="fill: #f9f19a;stroke: #000;stroke-miterlimit: 10"/>

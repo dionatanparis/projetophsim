@@ -72,7 +72,7 @@
                                 <li><a onclick="loadFileAsText();"><i class="material-icons">add</i></a></li>
                                 <li><a id="lesen" href="#"><i class="material-icons">add</i></a></li>
                                 <li><a class="modal-trigger" href="#modalEditarTabela"><i class="material-icons">stop</i></a></li>
-                                <li><a href="#"><i class="material-icons">add</i></a></li>
+                                <li><a onclick="simulacao();"><i class="material-icons">play_circle_filled</i></a></li>
                                 <li><a href="#"><i class="material-icons">add</i></a></li>
                                 <li><a href="#"><i class="material-icons">add</i></a></li>
                                 <li><a href="#"><i class="material-icons">add</i></a></li>
@@ -92,7 +92,6 @@
             <div class="row">
                 <div id="svg_simulacao" class="svg_simulacao col s12 m12 l8">
                     <object data="assets/SVG_prot.svg" preserveAspectRatio="xMidYMid meet" type="image/svg+xml">
-                    <img class="responsive-img" src="standAlone.png" alt="PNG image of standAlone.svg" />
                 </object>
 
                 </div>
@@ -258,7 +257,10 @@
     </div>
     <script>
         
-        var mem_ram = new Array({end:"",val:"",str:""});
+        var mem_ram = new Array();
+        var pc  = 0;    
+        var rem = 0;
+        var rdm = 0;
         $(document).ready(function(){
           
           $(".button-collapse").sideNav();
@@ -322,18 +324,16 @@ function listar(texto){
         cc = 1;
     for(var i=1;i<itens.length;i++){
 		var valores = itens[i].split(",");
-       
-        mem_ram[cc].end = valores[0];
-        mem_ram[cc].val = valores[1];
-        mem_ram[cc].str = 0;
+        mem_ram.push({end:valores[0], val:valores[1], str:0 });
+
 		document.getElementById("lista").innerHTML +=''+
         '<tr id="'+'editando_'+valores[0]+'" onclick="editarTabela('+valores[0]+');">'+
         '    <td class="end">'+valores[0]+'</td>'+
         '    <td class="bin">'+ConvertBase.hex2bin(valores[1])+'</td>'+
-        '    <td class="hex" >'+valores[1].toString().toUpperCase()+'</td>'+
+        '    <td class="hex" >'+valores[1]+'</td>'+
         '    <td class="dec">'+ConvertBase.hex2dec(valores[1])+'</td>'+          
         '</tr>';
-        cc+=1;
+        
 	}
       
      console.log('tempo3'+ new Date());
