@@ -60,7 +60,8 @@ function Salvar_valores() {
     col.innerHTML = hexa;
     col = tlinha[3];
     col.innerHTML = valor;
-
+    
+    mem_ram.push({end:endereco, val:hexa, str:1 });
 }
 
 function simulacao() {
@@ -84,30 +85,39 @@ function simulacao() {
 function ler_mem() {
     return "end mem";
 }
+
 function lixo() { alert('3') }
+
 
 function atualiza_rem(){
     console.log("atualiza rem valor:" +pc);
-    $("#rem_dec").textContent = pc;
+    scope.getElementById("rem_dec").textContent = pc;
     rem = pc;
+    scope.getElementById("rem_bin").textContent = ConvertBase.dec2bin(pc);
     console.log("rem - "+pc);
 }
 
 function atualiza_rdm(){
     console.log("atualiza rdm deve ser zero rdm =" +rdm );
-
     rdm = mem_ram[rem].val;
-   $("#rdm_dec tspan").textContent = ConvertBase.hex2dec(rdm);
+    scope.getElementById("rdm_dec").textContent = ConvertBase.hex2dec(rdm);
     console.log("rdm - "+rdm);
 }
 
 function incrementa_pc(){
     console.log("incrementa pc");
+    var pce  = scope.getElementById("PC");
+    console.log("pegou pc ");
     pc = pc + 1;
-    $("#pc_dec").textContent= pc.toString();
+    pce.getElementsByClassName('pc_dec')[0].textContent = pc.toString();
+    pce.getElementsByClassName('pc_bin')[0].textContent = ConvertBase.dec2bin(pc);   
 }
 
 function busca_instrucao(){
+    scope.getElementById("ri_dec").textContent = ConvertBase.hex2dec(rdm);
+    ri = ConvertBase.hex2bin(rdm); 
+    scope.getElementById("ri_bin").textContent = ri;
+    
     console.log("busca_instrucao");
 }
 
@@ -123,3 +133,5 @@ function lixo(){alert('3')}
 */
 
 //$("#pc_end").textContent = "023";
+//riw.style.fill = 'Red'; troca cor 
+//Pega elemento pc.getElementsByClassName("pc_dec")[0].textContent 
