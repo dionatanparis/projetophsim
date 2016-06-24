@@ -1,231 +1,493 @@
-<svg id="tags" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 564.04 390.69">
-  <title>SVG_prot</title>
-  <g id="Camada_12" data-name="Camada 12">
-    <path d="M231.54,143.89h-1l0-23.71,14.91,0,0,23.71h-1c1.19,0,1.94,1.81,1.34,3.25l-6.44,15.58a1.48,1.48,0,0,1-2.68,0l-6.39-15.6C229.6,145.69,230.35,143.88,231.54,143.89Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <path d="M243.07,208.78" transform="translate(-5.13 4.43)" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(233.19 127.15)" style="writing-mode: tb;text-orientation: upright;glyph-orientation-vertical: 0deg;font-size: 9px;font-family: Arial">PCr</text>
-  </g>
-  <g id="Camada_11" data-name="Camada 11">
-    <path d="M420.07,163.26v1L394.19,164l0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C422,165.22,420.05,164.45,420.07,163.26Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="436.56" y1="161.88" x2="449.39" y2="161.88" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="449.39" y1="174.77" x2="449.39" y2="161.88" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(391.26 166.39)" style="font-size: 12px;font-family: Arial">REMr</text>
-  </g>
-  <g id="Camada_10" data-name="Camada 10">
-    <path d="M477.09,152.05v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C479,154,477.07,153.24,477.09,152.05Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="493.58" y1="150.67" x2="506.4" y2="150.67" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="506.4" y1="174.45" x2="506.4" y2="150.67" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(448.87 154.41)" style="font-size: 12px;font-family: Arial">REMw</text>
-  </g>
-  <g id="Camada_9" data-name="Camada 9">
-    <path d="M310.27,247.21v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C312.22,249.17,310.26,248.4,310.27,247.21Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="326.76" y1="245.83" x2="339.59" y2="245.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="339.59" y1="258.71" x2="339.59" y2="245.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(282.48 248.83)" style="font-size: 12px;font-family: Arial">ACc</text>
-  </g>
-  <g id="Camada_17" data-name="Camada 17">
-    <path d="M234.22,247.21v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C236.17,249.17,234.21,248.4,234.22,247.21Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="250.71" y1="245.83" x2="263.54" y2="245.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="263.54" y1="258.71" x2="263.54" y2="245.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(206.48 248.83)" style="font-size: 12px;font-family: Arial">ACw</text>
-  </g>
-  <g id="Camada_8" data-name="Camada 8">
-    <path d="M229.2,279v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C231.14,281,229.18,280.24,229.2,279Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="245.68" y1="277.67" x2="258.51" y2="277.67" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="251.45" y1="278.1" x2="258.51" y2="277.67" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(202.71 281.1)" style="font-size: 12px;font-family: Arial">ACr</text>
-  </g>
-  <g id="Camada_21" data-name="Camada 21">
-    <path d="M365.81,361.81v1l-25.86-.33,0.19-14.9L366,347.95v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C367.76,363.77,365.79,363,365.81,361.81Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="321.95" y1="358.65" x2="334.78" y2="358.65" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(335.78 362.91)" style="font-size: 12px;font-family: Arial">Ula op</text>
-  </g>
-  <g id="Camada_7" data-name="Camada 7">
-    <path d="M243.64,25.51c0,1.19,2,2,3.54,1.39l17.08-6.2c1.59-.58,1.61-2.06,0-2.68l-16.92-6.63c-1.55-.61-3.52.09-3.57,1.26v-1L218,11.32l-0.19,14.9,25.86,0.33v-1Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="260.13" y1="24.13" x2="272.96" y2="24.13" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="272.96" y1="37.02" x2="272.96" y2="24.13" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  </g>
-  <g id="Camada_6" data-name="Camada 6">
-    <path d="M411,27.14v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.29l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C413,29.1,411,28.33,411,27.14Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="427.5" y1="25.76" x2="440.33" y2="25.76" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="440.33" y1="38.67" x2="440.33" y2="25.76" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(382.2 29.33)" style="font-size: 12px;font-family: Arial">RDMr</text>
-    <text x="-5.13" y="4.43"/>  </g>
-  <g id="Camada_15" data-name="Camada 15">
-    <path d="M410.5,95.66v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68L414,97C412.45,97.62,410.49,96.85,410.5,95.66Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="426.99" y1="94.28" x2="439.82" y2="94.28" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="439.82" y1="77.33" x2="439.82" y2="94.28" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(382.2 98.42)" style="font-size: 12px;font-family: Arial">MEMr</text>
-  </g>
-  <g id="Camada_14" data-name="Camada 14">
-    <path d="M474,101.38v1l-25.87-.33,0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C475.93,103.33,474,102.57,474,101.38Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="490.47" y1="100" x2="503.3" y2="100" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="503.3" y1="77.33" x2="503.3" y2="100" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(444.57 102.87)" style="font-size: 12px;font-family: Arial">MEMw</text>
-  </g>
-  <g id="Camada_16" data-name="Camada 16">
-    <path d="M481,242.32v1L455.14,243l0.19-14.9,25.87,0.33v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C483,244.28,481,243.51,481,242.32Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="497.51" y1="240.94" x2="510.34" y2="240.94" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="510.34" y1="213.21" x2="510.34" y2="240.94" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(451.13 244.25)" style="font-size: 12px;font-family: Arial">MEMw</text>
-  </g>
-  <g id="Camada_13" data-name="Camada 13">
-    <path d="M418.85,230.78v1L393,231.49l0.19-14.9L419,216.91v1c0-1.19,2-1.91,3.57-1.3l16.92,6.63c1.57,0.62,1.55,2.1,0,2.68l-17.09,6.19C420.79,232.74,418.83,232,418.85,230.78Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="435.34" y1="229.4" x2="448.16" y2="229.4" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="448.16" y1="213.21" x2="448.16" y2="229.4" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(391.26 233.25)" style="font-size: 12px;font-family: Arial">MEMr</text>
-  </g>
-  <g id="Camada_5" data-name="Camada 5">
-    <path d="M474.44,17.38v1l-25.86-.33,0.19-14.9,25.86,0.33v1c0-1.19,2-1.91,3.57-1.29l16.92,6.63c1.57,0.61,1.55,2.1,0,2.68L478,18.76C476.39,19.34,474.42,18.57,474.44,17.38Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="503.76" y1="38.67" x2="503.76" y2="16" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <line x1="490.93" y1="16" x2="503.76" y2="16" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(445.57 19.82)" style="font-size: 12px;font-family: Arial">RDMw</text>
-  </g>
-  <g id="Camada_18" data-name="Camada 18">
-    <path d="M298,143.11h1l0-23.71-14.91,0,0,23.71h1c-1.19,0-1.93,1.81-1.33,3.25L290.27,162a1.48,1.48,0,0,0,2.68,0l6.39-15.6C299.94,144.91,299.19,143.11,298,143.11Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <path d="M294.93,208.78" transform="translate(-5.13 4.43)" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <path d="M290.27,162" transform="translate(-5.13 4.43)" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(286.46 127.15)" style="writing-mode: tb;text-orientation: upright;glyph-orientation-vertical: 0deg;font-size: 9px;font-family: Arial">PC+</text>
-  </g>
-  <g id="Camada_19" data-name="Camada 19">
-    <path d="M271.66,143.11h1l0-23.71-14.91,0,0,23.71h1c-1.19,0-1.93,1.81-1.33,3.25L263.93,162a1.48,1.48,0,0,0,2.68,0l6.39-15.6C273.6,144.91,272.85,143.11,271.66,143.11Z" transform="translate(-5.13 4.43)" style="fill: #ededed;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <path d="M270.45,208.78" transform="translate(-5.13 4.43)" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <path d="M266.61,162" transform="translate(-5.13 4.43)" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text x="-5.13" y="4.43"/>    <text transform="translate(218.96 27.33)" style="font-size: 12px;font-family: Arial">RIw</text>
-    <text transform="translate(260.13 127.15)" style="writing-mode: tb;text-orientation: upright;glyph-orientation-vertical: 0deg;font-size: 9px;font-family: Arial">PCw</text>
-  </g>
-  <g id="LC">
-    <line x1="21.7" y1="56.51" x2="21.7" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="41.19" y1="73.34" x2="41.19" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="47.57" y1="73.34" x2="47.57" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="55.93" y1="73.34" x2="55.93" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="65.17" y1="73.34" x2="65.17" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="72.78" y1="73.34" x2="72.78" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="80.32" y1="73.34" x2="80.32" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="87.45" y1="73.34" x2="87.45" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="97.24" y1="73.34" x2="97.24" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="107.57" y1="73.34" x2="107.57" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="116.8" y1="73.34" x2="116.8" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="127.67" y1="73.34" x2="127.67" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="135.28" y1="73.34" x2="135.28" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="143.43" y1="73.34" x2="143.43" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="150.5" y1="73.34" x2="150.5" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="158.65" y1="73.34" x2="158.65" y2="136.41" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="17.7" y1="194.69" x2="17.7" y2="257.76" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="29.02" y1="195.06" x2="29.02" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="40.39" y1="195.06" x2="40.39" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="51.63" y1="195.06" x2="51.63" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="150.5" y1="195.06" x2="150.5" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="63.17" y1="194.39" x2="63.17" y2="257.45" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="73.78" y1="194.39" x2="73.78" y2="257.45" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="84.11" y1="194.39" x2="84.11" y2="257.45" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="94.52" y1="194.39" x2="94.52" y2="257.45" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="104.26" y1="195.06" x2="104.26" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="115.13" y1="195.06" x2="115.13" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="126.73" y1="195.06" x2="126.73" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="138.89" y1="195.06" x2="138.89" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="162.65" y1="195.06" x2="162.65" y2="258.13" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="176.59" y1="194.69" x2="176.3" y2="257.71" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3,3"/>
-    <line x1="341.59" y1="265.19" x2="352.67" y2="265.19" style="fill: none"/>
-    <line x1="355.93" y1="45.9" x2="358.65" y2="265.19" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
-    <line x1="341.59" y1="265.19" x2="358.65" y2="265.19" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
-    <g id="Camada_22" data-name="Camada 22">
-      <g>
-        <line x1="369.42" y1="354.09" x2="370.92" y2="354.09" style="fill: none;stroke: red;stroke-miterlimit: 10"/>
-        <line x1="373.87" y1="354.09" x2="413.62" y2="354.09" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 2.944791555404663,2.944791555404663"/>
-        <line x1="415.09" y1="354.09" x2="416.59" y2="354.09" style="fill: none;stroke: red;stroke-miterlimit: 10"/>
-      </g>
-      <g>
-        <line x1="374.48" y1="363.91" x2="375.98" y2="363.91" style="fill: none;stroke: red;stroke-miterlimit: 10"/>
-        <line x1="378.93" y1="363.91" x2="418.72" y2="363.91" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 2.9476606845855713,2.9476606845855713"/>
-        <line x1="420.2" y1="363.91" x2="421.7" y2="363.91" style="fill: none;stroke: red;stroke-miterlimit: 10"/>
-      </g>
-      <g>
-        <line x1="381.33" y1="358.75" x2="382.83" y2="358.8" style="fill: none;stroke: red;stroke-miterlimit: 10"/>
-        <line x1="385.94" y1="358.89" x2="415.5" y2="359.77" style="fill: none;stroke: red;stroke-miterlimit: 10;stroke-dasharray: 3.1128876209259033,3.1128876209259033"/>
-        <line x1="417.06" y1="359.81" x2="418.56" y2="359.86" style="fill: none;stroke: red;stroke-miterlimit: 10"/>
-      </g>
-    </g>
-  </g>
-  <g id="Clock">
-    <circle cx="18.94" cy="38.27" r="18.44" style="fill: #f9f19a;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(4.3 42.39)" style="font-size: 12px;font-family: Myriad Pro">Clock</text>
-  </g>
-  <g id="REM">
-    <rect x="423.98" y="174.45" width="90" height="38.76" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="423.98" y="174.45" width="45" height="19.38" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="468.98" y="174.45" width="45" height="19.38" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(429.58 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">REM</text>
-    <text id="rem_dec" transform="translate(482.02 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial">000</text>
-    <text id="rem_bin" transform="translate(439.56 209.73) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial"><tspan>00000000</tspan></text>
-  </g>
-  <g id="RDM">
-    <rect x="418" y="38.53" width="90" height="38.79" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="418" y="38.53" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="463" y="38.53" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(423.6 53.03) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial">RDM</text>
-    <text id="rdm_dec" transform="translate(476.04 53.03) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial"><tspan>000</tspan></text>
-    <text id="rdm_bin" transform="translate(433.58 73.81) scale(0.98 1)" style="isolation: isolate;font-size: 14.546870231628418px;font-family: Arial"><tspan>00000000</tspan></text>
-  </g>
-  <g id="RI">
-    <rect x="214.98" y="37.41" width="90" height="38.79" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="214.98" y="37.41" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="259.98" y="37.41" width="45" height="19.4" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(220.52 51.9) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial;white-space: pre">    RI</text>
-    <text id="ri_dec" transform="translate(272.96 51.9) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial"><tspan>000</tspan></text>
-    <text id="ri_bin" transform="translate(230.5 72.68) scale(0.98 1)" style="isolation: isolate;font-size: 14.546799659729004px;font-family: Arial"><tspan>00000000</tspan></text>
-  </g>
-  <g id="PC">
-    <rect x="218.96" y="174.45" width="90" height="38.76" style="fill: #5493cf;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="218.96" y="174.45" width="45" height="19.38" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="263.96" y="174.45" width="45" height="19.38" style="fill: #5493cf;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(224.49 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial;white-space: pre">    PC</text>
-    <text id="pc_dec"  transform="translate(276.93 188.97) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial"><tspan>000</tspan></text>
-    <text id="pc_bin"  transform="translate(234.47 209.73) scale(0.98 1)" style="isolation: isolate;font-size: 14.5343599319458px;font-family: Arial"><tspan>00000000</tspan></text>
-  </g>
-  <g id="AC">
-    <rect x="251.45" y="258.71" width="90" height="38.77" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="251.45" y="258.71" width="45" height="19.39" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <rect x="296.45" y="258.71" width="45" height="19.39" style="fill: #438dcc;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(256.98 273.22) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial"><tspan style="white-space: pre">   </tspan><tspan x="12.12" y="0"> </tspan><tspan x="15.36" y="0">AC</tspan></text>
-    <text id="ac_dec" transform="translate(309.43 273.22) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial"><tspan>001</tspan></text>
-    <text id="ac_bin" transform="translate(266.97 293.99) scale(0.98 1)" style="isolation: isolate;font-size: 14.540470123291016px;font-family: Arial"><tspan>00000000</tspan></text>
-  </g>
-  <g id="DECODIFICADOR">
-    <rect x="41.19" y="18.45" width="120.72" height="54.89" style="fill: #f9f19a;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(47.57 56.71) scale(0.8 1)" style="isolation: isolate;font-size: 16.370359420776367px;font-family: Arial">DECODIFICADOR</text>
-  </g>
-  <g id="UC">
-    <rect x="16.25" y="136.41" width="163.05" height="58.13" style="fill: #f9f19a;stroke: #000;stroke-miterlimit: 10"/>
-    <text transform="translate(89.61 170.66) scale(1.02 1)" style="isolation: isolate;font-size: 14.588890075683594px;font-family: Arial">UC</text>
-  </g>
-  <g id="ULA">
-    <polygon points="503.38 378.38 432.48 379.48 396.38 318.88 444.88 317.88 467.28 337.08 488.38 317.68 538.18 316.68 503.38 378.38" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10"/>
-    <text transform="translate(459.23 357.65)" style="isolation: isolate;font-size: 12px;font-family: Arial">UL<tspan x="15.34" y="0">A</tspan></text>
-  </g>
-  <line x1="162.65" y1="47.1" x2="214.98" y2="47.1" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="304.98" y1="45.9" x2="418" y2="45.9" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="421.15" y1="318.37" x2="421.15" y2="278.1" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="341.59" y1="278.1" x2="421.15" y2="278.1" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="352.67" y1="45.9" x2="352.67" y2="265.19" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="341.59" y1="265.19" x2="352.67" y2="265.19" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="466.82" y1="379.48" x2="466.82" y2="390.19" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="297.48" y1="297.49" x2="297.41" y2="390.19" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="466.82" y1="390.19" x2="297.41" y2="390.19" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="179.3" y1="165.47" x2="188.82" y2="165.47" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="421.15" y1="307.04" x2="188.82" y2="307.04" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="188.82" y1="165.47" x2="188.82" y2="307.04" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="503.76" y1="316.68" x2="503.76" y2="257.45" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="352.67" y1="252.27" x2="503.92" y2="252.27" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="503.92" y1="252.27" x2="503.76" y2="268.41" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="308.96" y1="193.83" x2="352.67" y2="193.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="423.98" y1="193.83" x2="352.67" y2="193.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="218.96" y1="193.83" x2="202.71" y2="193.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="218.96" y1="209.73" x2="202.71" y2="209.73" style="fill: none;stroke: #1d1d1b;stroke-linecap: square;stroke-miterlimit: 10"/>
-  <line x1="202.71" y1="193.83" x2="202.71" y2="209.73" style="fill: none;stroke: #1d1d1b;stroke-linecap: round;stroke-miterlimit: 10"/>
-  <line x1="508" y1="57.93" x2="563.54" y2="57.93" style="fill: none;stroke: #1d1d1b;stroke-linecap: square;stroke-miterlimit: 10"/>
-  <line x1="513.98" y1="193.83" x2="563.54" y2="193.83" style="fill: none;stroke: #1d1d1b;stroke-linecap: square;stroke-miterlimit: 10"/>
-  <line x1="232.82" y1="174.45" x2="232.82" y2="168.33" style="fill: none;stroke: #1d1d1b;stroke-linecap: square;stroke-miterlimit: 10"/>
-  <line x1="260.83" y1="174.45" x2="260.83" y2="166.39" style="fill: none;stroke: #1d1d1b;stroke-linecap: square;stroke-miterlimit: 10"/>
-  <line x1="286.46" y1="174.45" x2="286.46" y2="166.39" style="fill: none;stroke: #1d1d1b;stroke-linecap: square;stroke-miterlimit: 10"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="tags" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<title>SVG_prot</title>
+<g id="tag_x5F_pcr">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M245.662,344.977h-1.085V319.25h16.178
+		v25.726h-1.085c1.291,0,2.105,1.964,1.454,3.526l-6.988,16.905c-0.377,0.803-1.333,1.149-2.136,0.772
+		c-0.34-0.159-0.613-0.432-0.772-0.772l-6.933-16.926C243.557,346.93,244.37,344.966,245.662,344.977z"/>
+	<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M258.172,415.384"/>
+	<text transform="matrix(-1.346898e-010 1 -1 -1.346898e-010 250.0991 326.1914)" font-family="'ArialMT'" font-size="9.7653">PCr</text>
+</g>
+<g id="tag_x5F_remr">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M450.222,365.993v1.085l-28.081-0.282
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C452.316,368.12,450.2,367.285,450.222,365.993z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="473.68" y1="359.69" x2="487.601" y2="359.69"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="487.601" y1="373.676" x2="487.601" y2="359.69"/>
+	<text transform="matrix(1 0 0 1 424.5288 364.5834)" font-family="'ArialMT'" font-size="13.0204">REMr</text>
+</g>
+<g id="tag_x5F_remw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M512.091,353.83v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C514.163,355.946,512.069,355.122,512.091,353.83z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="535.549" y1="347.526" x2="549.459" y2="347.526"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="549.459" y1="373.328" x2="549.459" y2="347.526"/>
+	<text transform="matrix(1 0 0 1 487.0376 351.5845)" font-family="'ArialMT'" font-size="13.0204">REMw</text>
+</g>
+<g id="tag_x5F_acc">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M331.086,457.082v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C333.202,459.208,331.075,458.373,331.086,457.082z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="354.544" y1="450.778" x2="368.465" y2="450.778"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="368.465" y1="464.753" x2="368.465" y2="450.778"/>
+	<text transform="matrix(1 0 0 1 306.4995 454.0327)" font-family="'ArialMT'" font-size="13.0204">ACc</text>
+</g>
+<g id="tag_x5F_acw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M248.569,457.082v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C250.685,459.208,248.559,458.373,248.569,457.082z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="272.028" y1="450.778" x2="285.949" y2="450.778"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="285.949" y1="464.753" x2="285.949" y2="450.778"/>
+	<text transform="matrix(1 0 0 1 224.0371 454.0327)" font-family="'ArialMT'" font-size="13.0204">ACw</text>
+</g>
+<g id="tag_x5F_acr">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M243.123,491.575v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C245.228,493.745,243.101,492.92,243.123,491.575z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="266.57" y1="485.325" x2="280.491" y2="485.325"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="272.831" y1="485.792" x2="280.491" y2="485.325"/>
+	<text transform="matrix(1 0 0 1 219.9468 489.0473)" font-family="'ArialMT'" font-size="13.0204">ACr</text>
+</g>
+<g id="tag_x5F_ulaop">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M391.348,581.426v1.085l-28.059-0.358
+		l0.206-16.167l28.059,0.401v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C393.464,583.553,391.327,582.717,391.348,581.426z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="349.325" y1="573.191" x2="363.246" y2="573.191"/>
+	<text transform="matrix(1 0 0 1 364.3316 577.8129)" font-family="'ArialMT'" font-size="13.0204">Ula op</text>
+</g>
+<g id="tag_x5F_riw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M258.79,216.531
+		c0,1.291,2.17,2.17,3.841,1.508l18.532-6.727c1.725-0.629,1.747-2.235,0-2.908l-18.359-7.194c-1.682-0.662-3.819,0.098-3.874,1.367
+		v-1.085l-27.961-0.358l-0.206,16.167l28.059,0.358v-1.085L258.79,216.531z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="282.249" y1="210.227" x2="296.17" y2="210.227"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="296.17" y1="224.213" x2="296.17" y2="210.227"/>
+	<text id="RI_1_" transform="matrix(1 0 0 1 233.2598 213.704)" font-family="'ArialMT'" font-size="13.0204">RIw</text>
+</g>
+<g id="tag_x5F_rdmr">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M440.381,218.299v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.4l18.359,7.194c1.704,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C442.551,220.426,440.381,219.59,440.381,218.299z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="463.85" y1="211.995" x2="477.771" y2="211.995"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="477.771" y1="226.003" x2="477.771" y2="211.995"/>
+	<text transform="matrix(1 0 0 1 414.6988 215.8692)" font-family="'ArialMT'" font-size="13.0204">RDMr</text>
+</g>
+<g id="tag_x5F_rdm_x5F_memr">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M439.838,292.646v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.704,0.673,1.682,2.279,0,2.908l-18.641,6.76
+		C441.954,294.772,439.828,293.937,439.838,292.646z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="463.297" y1="286.341" x2="477.218" y2="286.341"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="477.218" y1="267.95" x2="477.218" y2="286.341"/>
+	<text transform="matrix(1 0 0 1 414.6988 290.8335)" font-family="'ArialMT'" font-size="13.0204">MEMr</text>
+</g>
+<g id="tag_x5F_rdm_x5F_memw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M508.738,298.852v1.085l-28.07-0.358
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C510.832,300.968,508.738,300.143,508.738,298.852z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="532.174" y1="292.548" x2="546.095" y2="292.548"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="546.095" y1="267.95" x2="546.095" y2="292.548"/>
+	<text transform="matrix(1 0 0 1 482.3716 295.6621)" font-family="'ArialMT'" font-size="13.0204">MEMw</text>
+</g>
+<g id="tag_x5F_rem_x5F_memw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M516.333,451.776v1.085l-28.059-0.347
+		l0.206-16.167l28.07,0.358v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C518.503,453.903,516.333,453.067,516.333,451.776z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="539.813" y1="445.472" x2="553.734" y2="445.472"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="553.734" y1="415.384" x2="553.734" y2="445.472"/>
+	<text transform="matrix(1 0 0 1 489.4898 449.0639)" font-family="'ArialMT'" font-size="13.0204">MEMw</text>
+</g>
+<g id="tag_x5F_memr">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M448.898,439.255v1.085l-28.048-0.315
+		l0.206-16.167l28.005,0.347v1.085c0-1.291,2.17-2.072,3.874-1.411l18.359,7.194c1.703,0.673,1.682,2.279,0,2.908l-18.543,6.716
+		C451.003,441.381,448.877,440.578,448.898,439.255z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="472.357" y1="432.951" x2="486.267" y2="432.951"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="486.267" y1="415.384" x2="486.267" y2="432.951"/>
+	<text transform="matrix(1 0 0 1 424.5288 437.1284)" font-family="'ArialMT'" font-size="13.0204">MEMr</text>
+</g>
+<g id="tag_x5F_rdmw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M509.215,207.709v1.085l-28.059-0.358
+		l0.206-16.167l28.059,0.358v1.085c0-1.291,2.17-2.072,3.874-1.4l18.359,7.194c1.703,0.662,1.682,2.279,0,2.908l-18.576,6.792
+		C511.331,209.836,509.194,209.001,509.215,207.709z"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="546.594" y1="226.003" x2="546.594" y2="201.405"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="532.674" y1="201.405" x2="546.594" y2="201.405"/>
+	<text transform="matrix(1 0 0 1 483.4576 205.5502)" font-family="'ArialMT'" font-size="13.0204">RDMw</text>
+</g>
+<g id="tag_x5F_pc_x2B_">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M317.773,344.13h1.085v-25.726H302.68
+		v25.726h1.085c-1.291,0-2.094,1.964-1.443,3.526l7.064,16.97c0.377,0.803,1.333,1.149,2.136,0.772
+		c0.34-0.159,0.613-0.432,0.772-0.772l6.933-16.926C319.878,346.083,319.064,344.13,317.773,344.13z"/>
+	<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M314.442,415.384"/>
+	<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M309.385,364.626"/>
+	<text transform="matrix(-1.346898e-010 1 -1 -1.346898e-010 306.9995 322.0073)" font-family="'ArialMT'" font-size="9.7653">PC+</text>
+</g>
+<g id="tag_x5F_pcw">
+	<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M289.193,344.13h1.085v-25.726H274.1
+		v25.726h1.085c-1.291,0-2.094,1.964-1.443,3.526l7.064,16.97c0.376,0.803,1.333,1.149,2.136,0.772
+		c0.34-0.159,0.613-0.432,0.772-0.772l6.933-16.926C291.298,346.083,290.484,344.13,289.193,344.13z"/>
+	<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M287.88,415.384"/>
+	<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M283.714,364.626"/>
+	<text transform="matrix(-1.346898e-010 1 -1 -1.346898e-010 278.7515 322.0073)" font-family="'ArialMT'" font-size="9.7653">PCw</text>
+</g>
+<g id="LC">
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="23.545" y1="245.36" x2="23.545" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="44.692" y1="263.621" x2="44.692" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="51.615" y1="263.621" x2="51.615" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="60.686" y1="263.621" x2="60.686" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="70.711" y1="263.621" x2="70.711" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="78.968" y1="263.621" x2="78.968" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="87.15" y1="263.621" x2="87.15" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="94.886" y1="263.621" x2="94.886" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="105.508" y1="263.621" x2="105.508" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="116.717" y1="263.621" x2="116.717" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="126.731" y1="263.621" x2="126.731" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="138.526" y1="263.621" x2="138.526" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="146.783" y1="263.621" x2="146.783" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="155.626" y1="263.621" x2="155.626" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="163.297" y1="263.621" x2="163.297" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="172.14" y1="263.621" x2="172.14" y2="332.054"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="19.205" y1="395.289" x2="19.205" y2="463.722"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="32.488" y1="395.691" x2="32.488" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="43.824" y1="395.691" x2="43.824" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="56.02" y1="395.691" x2="56.02" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="163.297" y1="395.691" x2="163.297" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="68.541" y1="394.964" x2="68.541" y2="463.386"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="80.053" y1="394.964" x2="80.053" y2="463.386"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="91.262" y1="394.964" x2="91.262" y2="463.386"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="102.557" y1="394.964" x2="102.557" y2="463.386"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="113.125" y1="395.691" x2="113.125" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="124.919" y1="395.691" x2="124.919" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="137.506" y1="395.691" x2="137.506" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="150.7" y1="395.691" x2="150.7" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="176.48" y1="395.691" x2="176.48" y2="464.124"/>
+	
+		<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3,3" x1="191.605" y1="395.289" x2="191.291" y2="463.668"/>
+	<line fill="none" x1="370.635" y1="471.784" x2="382.657" y2="471.784"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="386.195" y1="233.848" x2="389.146" y2="471.784"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="370.635" y1="471.784" x2="389.146" y2="471.784"/>
+	<g id="Camada_22">
+		<g>
+			<line fill="none" stroke="#FF0000" stroke-miterlimit="10" x1="400.832" y1="568.243" x2="402.459" y2="568.243"/>
+			
+				<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="2.9448,2.9448" x1="405.66" y1="568.243" x2="448.79" y2="568.243"/>
+			<line fill="none" stroke="#FF0000" stroke-miterlimit="10" x1="450.385" y1="568.243" x2="452.012" y2="568.243"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#FF0000" stroke-miterlimit="10" x1="406.322" y1="578.898" x2="407.949" y2="578.898"/>
+			
+				<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="2.9477,2.9477" x1="411.15" y1="578.898" x2="454.324" y2="578.898"/>
+			<line fill="none" stroke="#FF0000" stroke-miterlimit="10" x1="455.929" y1="578.898" x2="457.557" y2="578.898"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#FF0000" stroke-miterlimit="10" x1="413.754" y1="573.299" x2="415.382" y2="573.354"/>
+			
+				<line fill="none" stroke="#FF0000" stroke-miterlimit="10" stroke-dasharray="3.1129,3.1129" x1="418.756" y1="573.451" x2="450.83" y2="574.406"/>
+			<line fill="none" stroke="#FF0000" stroke-miterlimit="10" x1="452.522" y1="574.449" x2="454.15" y2="574.504"/>
+		</g>
+	</g>
+</g>
+<g id="Clock">
+	<circle fill="#F9F19A" stroke="#000000" stroke-miterlimit="10" cx="20.55" cy="225.569" r="20.008"/>
+	<text transform="matrix(1 0 0 1 4.666 230.0396)" font-family="'MyriadPro-Regular'" font-size="13.0204">Clock</text>
+</g>
+<g id="REM">
+	<rect x="460.031" y="373.328" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="97.653" height="42.056"/>
+	<rect x="460.031" y="373.328" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.028"/>
+	<rect x="508.857" y="373.328" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.028"/>
+	<text transform="matrix(0.98 0 0 1 466.106 389.083)" font-family="'ArialMT'" font-size="15.7702">REM</text>
+	<text id="rem_dec" transform="matrix(0.98 0 0 1 523.0054 389.083)" font-family="'ArialMT'" font-size="15.7702">000</text>
+	<text transform="matrix(0.98 0 0 1 476.9351 411.6085)" font-family="'ArialMT'" font-size="15.7702">00000000</text>
+</g>
+<g id="RDM">
+	<rect x="453.542" y="225.851" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="97.653" height="42.088"/>
+	<rect x="453.542" y="225.851" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.05"/>
+	<rect x="502.369" y="225.851" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.05"/>
+	<text transform="matrix(0.98 0 0 1 459.6177 241.5841)" font-family="'ArialMT'" font-size="15.7838">RDM</text>
+	<text transform="matrix(0.98 0 0 1 516.5171 241.5841)" font-family="'ArialMT'" font-size="15.7838">000</text>
+	<text transform="matrix(0.98 0 0 1 470.4468 264.1313)" font-family="'ArialMT'" font-size="15.7838">00000000</text>
+</g>
+<g id="RI">
+	<rect x="233.26" y="224.636" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="97.653" height="42.088"/>
+	<rect x="233.26" y="224.636" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.05"/>
+	<rect x="282.086" y="224.636" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.05"/>
+	<text transform="matrix(0.98 0 0 1 239.2701 240.3579)" font-family="'ArialMT'" font-size="15.7837">RI</text>
+	<text transform="matrix(0.98 0 0 1 296.169 240.3579)" font-family="'ArialMT'" font-size="15.7837">000</text>
+	<text transform="matrix(0.98 0 0 1 250.0987 262.9048)" font-family="'ArialMT'" font-size="15.7837">00000000</text>
+</g>
+<g id="PC">
+	<rect x="237.578" y="373.328" fill="#5493CF" stroke="#000000" stroke-miterlimit="10" width="97.653" height="42.056"/>
+	<rect x="237.578" y="373.328" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.028"/>
+	<rect x="286.404" y="373.328" fill="#5493CF" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.028"/>
+	<text transform="matrix(0.98 0 0 1 243.5777 389.083)" font-family="'ArialMT'" font-size="15.7702">PC</text>
+	<text transform="matrix(0.98 0 0 1 300.4761 389.083)" font-family="'ArialMT'" font-size="15.7702">000</text>
+	<text transform="matrix(0.98 0 0 1 254.4063 411.6085)" font-family="'ArialMT'" font-size="15.7702">00000000</text>
+</g>
+<g id="AC">
+	<rect x="272.831" y="464.753" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="97.653" height="42.067"/>
+	<rect x="272.831" y="464.753" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.039"/>
+	<rect x="321.657" y="464.753" fill="#438DCC" stroke="#000000" stroke-miterlimit="10" width="48.826" height="21.039"/>
+	<text transform="matrix(0.98 0 0 1 295.1631 480.4966)" font-family="'ArialMT'" font-size="15.7768">AC</text>
+	<text transform="matrix(0.98 0 0 1 335.7398 480.4966)" font-family="'ArialMT'" font-size="15.7768">001</text>
+	<text transform="matrix(0.98 0 0 1 289.6695 503.0327)" font-family="'ArialMT'" font-size="15.7768">00000000</text>
+</g>
+<g id="DECODIFICADOR">
+	<rect x="44.692" y="204.064" fill="#F9F19A" stroke="#000000" stroke-miterlimit="10" width="130.985" height="59.557"/>
+	<text transform="matrix(0.8 0 0 1 51.6148 245.5772)" font-family="'ArialMT'" font-size="17.7623">DECODIFICADOR</text>
+</g>
+<g id="uc">
+	<g id="tag_x5F_uc_x5F_acw">
+		<g id="tag_x5F_pcr_15_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M157.722,488.049h1.085v25.726h-16.178
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C159.827,486.096,159.013,488.06,157.722,488.049z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M145.211,417.642"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 153.2842 506.834)" font-family="'ArialMT'" font-size="9.7653">ACw</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_acc">
+		<g id="tag_x5F_pcr_14_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M170.319,441.795h1.085v25.726h-16.178
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C172.424,439.842,171.61,441.806,170.319,441.795z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M157.809,371.388"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 165.8814 460.5801)" font-family="'ArialMT'" font-size="9.7653">ACc</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_ulaop">
+		<g id="tag_x5F_pcr_13_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M183.699,488.833h1.085v25.726h-16.178
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C185.804,486.88,184.99,488.843,183.699,488.833z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M171.189,418.425"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 179.2616 507.6191)" font-family="'ArialMT'" font-size="9.7653">Ula op</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_remw">
+		<g id="tag_x5F_pcr_12_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M133.753,487.847h1.085v25.726h-16.178
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C135.858,485.894,135.045,487.858,133.753,487.847z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M121.243,417.44"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 129.3159 506.6328)" font-family="'ArialMT'" font-size="9.7653">REMw</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="not" display="none">
+		<g id="tag_x5F_pcr_11_" display="inline">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M198.313,441.982h1.085v25.726H183.22
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C200.418,440.029,199.604,441.993,198.313,441.982z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M185.802,371.575"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 193.8751 460.7676)" font-family="'ArialMT'" font-size="9.7653">PCr</text>
+		</g>
+		
+			<line display="inline" fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_acr">
+		<g id="tag_x5F_pcr_10_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M145.112,438.982h1.085v25.726H130.02
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C147.217,437.029,146.403,438.993,145.112,438.982z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M132.602,368.575"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 140.6747 457.7695)" font-family="'ArialMT'" font-size="9.7653">ACr</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_remr">
+		<g id="tag_x5F_pcr_9_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M121.972,439.306h1.085v25.726h-16.178
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C124.077,437.353,123.263,439.317,121.972,439.306z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M109.461,368.899"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 117.5342 458.0918)" font-family="'ArialMT'" font-size="9.7653">REMr</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_pcplus">
+		<g id="tag_x5F_pcr_8_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M110.303,488.049h1.085v25.726H95.21
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C112.408,486.096,111.594,488.06,110.303,488.049z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M97.792,417.642"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 105.8653 506.8359)" font-family="'ArialMT'" font-size="9.7653">PC+</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_pcw">
+		<g id="tag_x5F_pcr_7_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M98.284,439.953h1.085v25.726H83.191
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C100.389,438,99.575,439.964,98.284,439.953z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M85.773,369.545"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 93.8463 458.7383)" font-family="'ArialMT'" font-size="9.7653">PCw</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_pcr">
+		<g id="tag_x5F_pcr_6_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M87.076,487.862h1.085v25.726H71.983
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C89.18,485.909,88.367,487.873,87.076,487.862z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M74.565,417.455"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 82.6379 506.6484)" font-family="'ArialMT'" font-size="9.7653">PCr</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_memw">
+		<g id="tag_x5F_pcr_5_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M75.733,439.982h1.085v25.726H60.641
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C77.838,438.029,77.025,439.993,75.733,439.982z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M63.223,369.575"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 71.2958 458.7676)" font-family="'ArialMT'" font-size="9.7653">MEMw</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_memr">
+		<g id="tag_x5F_pcr_4_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M63.219,487.862h1.085v25.726H48.127
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C65.324,485.909,64.511,487.873,63.219,487.862z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M50.709,417.455"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 58.7818 506.6484)" font-family="'ArialMT'" font-size="9.7653">MEMr</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_rdmw">
+		<g id="tag_x5F_pcr_3_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M50.846,439.669h1.085v25.726H35.754
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C52.951,437.716,52.138,439.68,50.846,439.669z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M38.336,369.262"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 46.4088 458.4531)" font-family="'ArialMT'" font-size="9.7653">RDMw</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_riw_1_">
+		<g id="tag_x5F_pcr_2_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M27.573,441.982h1.085v25.726H12.48
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C29.677,440.029,28.864,441.993,27.573,441.982z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M15.062,371.575"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 23.1349 460.7676)" font-family="'ArialMT'" font-size="9.7653">RIW</text>
+		</g>
+		
+			<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="319.617" y1="415.328" x2="319.617" y2="408.688"/>
+	</g>
+	<g id="tag_x5F_uc_x5F_rdmr">
+		<g id="tag_x5F_pcr_1_">
+			<path fill="#EDEDED" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M38.912,488.373h1.085v25.726H23.819
+				v-25.726h1.085c-1.291,0-2.105-1.964-1.454-3.526l6.988-16.905c0.377-0.803,1.333-1.149,2.136-0.772
+				c0.34,0.159,0.613,0.432,0.772,0.772l6.933,16.926C41.016,486.42,40.203,488.384,38.912,488.373z"/>
+			<path fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" d="M26.401,417.966"/>
+			<text transform="matrix(2.244830e-010 -1 1 2.244830e-010 34.4735 507.1563)" font-family="'ArialMT'" font-size="9.7653">RDMr</text>
+		</g>
+	</g>
+</g>
+<g id="UC">
+	<rect x="17.632" y="332.054" fill="#F9F19A" stroke="#000000" stroke-miterlimit="10" width="176.914" height="63.073"/>
+	<text transform="matrix(1.02 0 0 1 97.23 369.2163)" font-family="'ArialMT'" font-size="15.8294">UC</text>
+</g>
+<g id="ULA">
+	<polygon fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" points="546.182,594.598 469.254,595.792 
+		430.084,530.039 482.708,528.954 507.013,549.787 529.907,528.737 583.941,527.652 	"/>
+	<text transform="matrix(1 0 0 1 498.2788 572.1059)" font-family="'ArialMT'" font-size="13.0204">UL</text>
+	<text transform="matrix(1 0 0 1 514.9233 572.1059)" font-family="'ArialMT'" font-size="13.0204">A</text>
+</g>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="176.48" y1="235.15" x2="233.26" y2="235.15"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="330.912" y1="233.848" x2="453.542" y2="233.848"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="456.96" y1="529.486" x2="456.96" y2="485.792"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="370.635" y1="485.792" x2="456.96" y2="485.792"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="382.657" y1="233.848" x2="382.657" y2="471.784"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="370.635" y1="471.784" x2="382.657" y2="471.784"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="506.513" y1="595.792" x2="506.513" y2="607.413"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="322.775" y1="506.83" x2="322.699" y2="607.413"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="506.513" y1="607.413" x2="322.699" y2="607.413"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="194.546" y1="363.585" x2="204.875" y2="363.585"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="456.96" y1="517.192" x2="204.875" y2="517.192"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="204.875" y1="363.585" x2="204.875" y2="517.192"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="546.594" y1="527.652" x2="546.594" y2="463.386"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="382.657" y1="457.765" x2="546.768" y2="457.765"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="546.768" y1="457.765" x2="546.594" y2="475.278"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="335.231" y1="394.356" x2="382.657" y2="394.356"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="460.031" y1="394.356" x2="382.657" y2="394.356"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="237.578" y1="394.356" x2="219.946" y2="394.356"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="237.578" y1="411.608" x2="219.946" y2="411.608"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="round" stroke-miterlimit="10" x1="219.946" y1="394.356" x2="219.946" y2="411.608"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="551.195" y1="246.901" x2="611.458" y2="246.901"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="557.683" y1="394.356" x2="611.458" y2="394.356"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="252.617" y1="373.328" x2="252.617" y2="366.688"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="283.008" y1="373.328" x2="283.008" y2="364.583"/>
+<line fill="none" stroke="#1D1D1B" stroke-linecap="square" stroke-miterlimit="10" x1="310.818" y1="373.328" x2="310.818" y2="364.583"/>
 </svg>

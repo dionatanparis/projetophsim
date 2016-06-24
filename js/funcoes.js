@@ -21,7 +21,6 @@ function endereco_next() {
 function carregar_valores_modal(endereco) {
     console.log('entrou na fn carregar_valores_modal');
     try {
-        console.log('entrou try carregar_valores_modal');
         cel = $("#editando_" + endereco + " td")[3];
         var valor = cel.innerText;
         cel = $("#editando_" + endereco + " td")[1];
@@ -32,10 +31,10 @@ function carregar_valores_modal(endereco) {
         $("#valor_bin").val(bin);
         $("#valor_hexa").val(ConvertBase.dec2hex(valor));
         setaBin(bin);
-        console.log('carregou valores');
+ 
 
     } catch (error) {
-        console.log("entrou no catch valor endereco: " + endereco);
+ 
         document.getElementById("lista").innerHTML += '' +
             '<tr id="' + 'editando_' + endereco + '" onclick="editarTabela(' + endereco + ');">' +
             '    <td class="end">' + endereco + '</td>' +
@@ -70,58 +69,57 @@ function simulacao() {
     var LCA = new Array();
     var operacao = new Array();
     
-    var simulacao = [{ "rtl": "REM <- PC", "lca": ["REMw", "PCr"], "op": atualiza_rem },
-        { "rtl": "RDM <- MEM[REM]", "lca": ["MEMr"], "op": atualiza_rdm },
-        { "rtl": "PC <- PC + 1", "lca": ["PC+"], "op": incrementa_pc },
-        { "rtl": "PC <- PC + 1", "lca": ["PC+"], "op": busca_instrucao }
+    var simulacao = [{ "rtl": "REM <- PC", "lca": ["tag_remw", "tag_pcr"], "op": atualiza_rem },
+        { "rtl": "RDM <- MEM[REM]", "lca": ["tag_memr"], "op": atualiza_rdm },
+        { "rtl": "PC <- PC + 1", "lca": ["tag_pcplus"], "op": incrementa_pc },
+        { "rtl": "RI <- RDM7..4", "lca": ["tag_rdmr","tag_riw"], "op": busca_instrucao }
     ]
 
     for(var i in simulacao){
-        simulacao[i].op();
+        simulacao[i].op();  
+
     }
 
 }
 
-function ler_mem() {
-    return "end mem";
-}
-
-function lixo() { alert('3') }
-
-
 function atualiza_rem(){
-    console.log("atualiza rem valor:" +pc);
     scope.getElementById("rem_dec").textContent = pc;
     rem = pc;
     scope.getElementById("rem_bin").textContent = ConvertBase.dec2bin(pc);
-    console.log("rem - "+pc);
 }
 
 function atualiza_rdm(){
-    console.log("atualiza rdm deve ser zero rdm =" +rdm );
     rdm = mem_ram[rem].val;
     scope.getElementById("rdm_dec").textContent = ConvertBase.hex2dec(rdm);
-    console.log("rdm - "+rdm);
+    scope.getElementById("rdm_bin").textContent = ConvertBase.hex2bin(rdm);
 }
 
 function incrementa_pc(){
-    console.log("incrementa pc");
-    var pce  = scope.getElementById("PC");
-    console.log("pegou pc ");
     pc = pc + 1;
-    pce.getElementsByClassName('pc_dec')[0].textContent = pc.toString();
-    pce.getElementsByClassName('pc_bin')[0].textContent = ConvertBase.dec2bin(pc);   
+    scope.getElementById('pc_dec').textContent = pc.toString();
+    scope.getElementById('pc_bin').textContent = ConvertBase.dec2bin(pc);   
 }
 
 function busca_instrucao(){
     scope.getElementById("ri_dec").textContent = ConvertBase.hex2dec(rdm);
-    ri = ConvertBase.hex2bin(rdm); 
+    ri = ConvertBase.hex2bin(rdm).substr(0,4); 
     scope.getElementById("ri_bin").textContent = ri;
+    if(ri ==="0000" || ri ==="0111" || ri ==="1111" ){
+             console.log("não tem operando");
+    }
+    else{
+        buscar_operando();
+        
+    };
     
-    console.log("busca_instrucao");
 }
 
+function buscar_operando(){
+ atualiza_rem();
+ atualiza_rdm();
+ incrementa_pc();
 
+}
 
 /* exemplo função 
 var simulacao=[{"rtl": "REM <- PC", "lca": ["REMw", "PCr"], "op" : function() { alert('0') }},
@@ -131,7 +129,11 @@ var simulacao=[{"rtl": "REM <- PC", "lca": ["REMw", "PCr"], "op" : function() { 
 
 function lixo(){alert('3')}
 */
+//setTimeout(function(){ simulacao[i].op();},time);
 
 //$("#pc_end").textContent = "023";
 //riw.style.fill = 'Red'; troca cor 
-//Pega elemento pc.getElementsByClassName("pc_dec")[0].textContent 
+//Pega elemento pc.getElementsByClassName("pc_dec")[0].textContent  
+
+//tx =  scope.getElementById("tag_pcw");
+//tx.style.fill="red";
